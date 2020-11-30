@@ -2,7 +2,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#fejlec0 {
+.fejlec0 {
     position: fixed;
     background-color: grey;
     margin-top: -11px;
@@ -10,7 +10,7 @@ body {
     width: 100vw;
 }
 
-#fejlec1 {
+.fejlec1 {
     position: fixed;
     background-color: grey;
     width: 100vw;
@@ -24,4 +24,40 @@ body {
 
 p {
     color: rgb(14, 63, 70);
+}
+
+table,
+td,
+th {
+    border: 2px solid #333333;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(14, 63, 70);
+}
+
+tr {
+    height: 20px;
+}
+
+th {
+    color: rgb(2, 47, 63);
+    background-color: rgb(0, 255, 255);
+}
+
+.felkover {
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: disc;
+    color: rgb(59, 59, 59);
+}
+
+.alahuzott {
+    text-decoration: underline;
+    color: rgb(32, 32, 32);
 }

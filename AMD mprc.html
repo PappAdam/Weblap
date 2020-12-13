@@ -4,78 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intel mikroprocesszorai</title>
+    <title>AMD mikroprocesszorai</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <p class="fejlec0">
-        AMD:
-        <a href="Index.html" class="fekete alahuzott">AMD tortenete</a>
-        <a href="#AMD mpcr" class="fekete alahuzott"> AMD mikroprocesszorai </a>
-        <a href="#Zen 2" class="fekete alahuzott">AMD 3000 széria </a>
-    </p>
-
-    <p class="fejlec1">
-        Intel:
-        <a href="Index.html" class="fekete alahuzott">Intel története</a>
-        <a href="Intel mprc.html" class="fekete alahuzott">Intel mikroprocesszorai</a>
-        <br>
-        <hr>
-    </p>
+    <div class="fejlec">
+        <div class="AMD">
+            <div class="fekete felkover">AMD: </div>
+            <div>
+                <a href="Index.html" class="fekete alahuzott"> AMD tortenete </a>
+            </div>
+            <div>
+                <a href="#AMD mpcr" class="fekete alahuzott"> AMD mikroprocesszorai </a>
+            </div>
+            <div>
+                <a href="#Zen 2" class="fekete alahuzott"> AMD 3000 széria </a>
+            </div>
+        </div>
+        <div class="Intel">
+            <div class="fekete felkover">Intel: </div>
+            <div>
+                <a href="Index.html" class="fekete alahuzott">Intel története</a>
+            </div>
+            <div>
+                <a href="Intel mprc.html" class="fekete alahuzott">Intel mikroprocesszorai</a>
+            </div>
+        </div>
+    </div>
 
     <br id="AMD mpcr">
-    <h2>AMD mikroprocesszorai</h2>
-    <ul id="amdfls">
-        <li> Am2900 széria (1975) pl: </li>
-        <ul>
-            <li>Am2901</li>
-            <li>Am2902</li>
-            <li>Am2903</li>
-            <li>stb.</li>
-        </ul>
-        <li title="Intleltől licencelve"> <u>2nd source (1979–1986) x86-os arch.</u> </li>
-        <ul>
-            <li>8086</li>
-            <li>8088</li>
-            <li>80286</li>
-        </ul>
-        <li> x86-64 arch. pl: </li>
-        <ul>
-            <li>Opteron</li>
-            <li>Athlon 64 FX </li>
-            <li>Athlon 64 X2</li>
-            <li>stb.</li>
-        </ul>
-        <li> Zen arch. (2017) </li>
-        <ul>
-            <li>Ryzen 1000-es széria</li>
-            <li>Ryzen Threadripper 1000-es széria</li>
-            <li>Ryzen 2000 APU széria</li>
-        </ul>
-        <li> Zen+ arch. (2018) </li>
-        <ul>
-            <li>Ryzen 2000-es széria</li>
-            <li>Ryzen Threadripper 2000-es széria</li>
-            <li>Ryzen 3000 APU széria</li>
-        </ul>
-        <li> Zen 2 arch. (2019) </li>
-        <ul>
-            <li>Ryzen 3000-es széria</li>
-            <li>Ryzen Threadripper 3000-es széria</li>
-            <li>Ryzen 4000 APU széria
-            </li>
-        </ul>
-        <li> Zen 3 arch. (2020) </li>
-        <ul>
-            <li>Ryzen 5000 széria</li>
-        </ul>
-    </ul>
-    <hr>
+    <div class="amd-fels">
+        <div id="amdfls0">
+            <img src="képek/AMD ryzen.png" alt="">
+            <h2>AMD mikroprocesszorai</h2>
+            <ul>
+                <li> Am2900 széria (1975) pl: </li>
+                <ul>
+                    <li>Am2901</li>
+                    <li>Am2902</li>
+                    <li>Am2903</li>
+                    <li>stb.</li>
+                </ul>
+                <li title="Intleltől licencelve"> <u>2nd source (1979–1986) x86-os arch.</u> </li>
+                <ul>
+                    <li>8086</li>
+                    <li>8088</li>
+                    <li>80286</li>
+                </ul>
+                <li> x86-64 arch. pl: </li>
+                <ul>
+                    <li>Opteron</li>
+                    <li>Athlon 64 FX </li>
+                    <li>Athlon 64 X2</li>
+                    <li>stb.</li>
+                </ul>
+            </ul>
+        </div>
+        <div id="amdfls1">
+            <img src="képek/AMD processzor.png" alt="">
+            <ul>
+                <li>Zen arch. (2017)</li>
+                <ul>
+                    <li>Ryzen 1000-es széria</li>
+                    <li>Ryzen Threadripper 1000-es széria</li>
+                    <li>Ryzen 2000 APU széria</li>
+                </ul>
+                <li> Zen+ arch. (2018) </li>
+                <ul>
+                    <li>Ryzen 2000-es széria</li>
+                    <li>Ryzen Threadripper 2000-es széria</li>
+                    <li>Ryzen 3000 APU széria</li>
+                </ul>
+                <li> Zen 2 arch. (2019) </li>
+                <ul>
+                    <li>Ryzen 3000-es széria</li>
+                    <li>Ryzen Threadripper 3000-es széria</li>
+                    <li>Ryzen 4000 APU széria
+                    </li>
+                </ul>
+                <li> Zen 3 arch. (2020) </li>
+                <ul>
+                    <li>Ryzen 5000 széria</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
 
-    <br id="Zen 2">
-    <h2>Zen 2:</h2>
-    <table id="zen2">
+
+    <h2 class="ujsorba kozepre ">Zen 2:</h2>
+    <table id="Zen 2">
         <caption>3000-es széria (csak dekstop modellek)</caption>
         <thead>
             <th></th>

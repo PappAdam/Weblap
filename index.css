@@ -1,21 +1,31 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
 }
 
-.fejlec0 {
+.fejlec {
     position: fixed;
-    background-color: grey;
-    margin-top: -11px;
-    margin-left: -8px;
-    width: 100vw;
+    background-color: rgb(243, 237, 237);
+    width: 100%;
+    box-shadow: lightslategray 1px 0px 2px 0px;
+    opacity: .82;
 }
 
-.fejlec1 {
-    position: fixed;
-    background-color: grey;
-    width: 100vw;
-    margin-top: 8px;
-    margin-left: -8px;
+.AMD div {
+    float: left;
+    margin-right: 6px;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+
+.fejlec .Intel {
+    clear: both;
+}
+
+.Intel div {
+    margin-top: 5px;
+    float: left;
+    margin-right: 6px;
+    box-shadow: 0px 0px 1px 1px gray;
 }
 
 .fekete {
@@ -26,10 +36,16 @@ p {
     color: rgb(14, 63, 70);
 }
 
+table {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 table,
 td,
 th {
-    border: 2px solid #333333;
+    border: 1px solid #333333;
     border-collapse: collapse;
 }
 
@@ -60,4 +76,38 @@ ul li {
 .alahuzott {
     text-decoration: underline;
     color: rgb(32, 32, 32);
+}
+
+div.amd-fels {
+    padding: 8px;
+    background-color: rgb(210, 222, 223);
+    box-shadow: 1pt 1pt 1px 1px gray;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.amd-fels img {
+    float: left;
+    width: 40%;
+}
+
+.ujsorba {
+    clear: both;
+}
+
+.kozepre {
+    text-align: center;
+}
+
+#amdfls0 img {
+    float: right;
+}
+
+#amdfls0 {
+    text-align: left;
+}
+
+#amdfls1 {
+    text-align: right;
 }

@@ -3,12 +3,44 @@ body {
     margin: 0px;
 }
 
+p {
+    color: rgb(14, 63, 70);
+}
+
+
+/*DIVEK*/
+
+.altDiv img {
+    float: right;
+}
+
+.altDiv {
+    padding: 8px;
+    background-color: rgb(210, 222, 223);
+    box-shadow: 1pt 1pt 1px 1px gray;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ujsorba {
+    clear: both;
+}
+
+.kozepre {
+    text-align: center;
+}
+
+
+/*FEJLÉC*/
+
 .fejlec {
     position: fixed;
     background-color: rgb(243, 237, 237);
     width: 100%;
     box-shadow: lightslategray 1px 0px 2px 0px;
     opacity: .82;
+    z-index: 0;
 }
 
 .AMD div {
@@ -28,13 +60,19 @@ body {
     box-shadow: 0px 0px 1px 1px gray;
 }
 
-.fekete {
-    color: black;
+.fejelc .BM {
+    clear: both;
 }
 
-p {
-    color: rgb(14, 63, 70);
+.BM div {
+    clear: both;
+    float: left;
+    margin-top: 5px;
+    box-shadow: 0px 0px 1px 1px gray;
 }
+
+
+/*TÁBLÁZAT*/
 
 table {
     margin-left: 5px;
@@ -64,13 +102,11 @@ th {
     background-color: rgb(0, 255, 255);
 }
 
+
+/*BETŰFORMÁZÁS*/
+
 .felkover {
     font-weight: bold;
-}
-
-ul li {
-    list-style-type: disc;
-    color: rgb(59, 59, 59);
 }
 
 .alahuzott {
@@ -78,36 +114,43 @@ ul li {
     color: rgb(32, 32, 32);
 }
 
-div.amd-fels {
-    padding: 8px;
-    background-color: rgb(210, 222, 223);
-    box-shadow: 1pt 1pt 1px 1px gray;
-    box-sizing: border-box;
-    margin-left: 5px;
-    margin-right: 5px;
+.fekete {
+    color: black;
 }
 
-.amd-fels img {
-    float: left;
-    width: 40%;
+
+/*FELSOROLÁS*/
+
+ul li {
+    list-style-type: disc;
+    color: rgb(59, 59, 59);
 }
 
-.ujsorba {
+
+/*AMD-DIV*/
+
+#amd-fels img {
+    float: right;
+    width: 30%;
+}
+
+
+/*INDEX-DIV*/
+
+#Intel-fels img {
+    float: right;
+    width: 30%;
+    margin-bottom: 6px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+#I9 {
     clear: both;
 }
 
-.kozepre {
-    text-align: center;
-}
 
-#amdfls0 img {
-    float: right;
-}
+/*BENCHMARK-DIV*/
 
-#amdfls0 {
-    text-align: left;
-}
-
-#amdfls1 {
-    text-align: right;
+#bnchmrk img {
+    width: 100%
 }
